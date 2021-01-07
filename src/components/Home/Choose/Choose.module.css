@@ -1,0 +1,32 @@
+.Section2 {
+  background-color: hsl(220, 16%, 96%);
+  padding: 100px 50px;
+}
+.Header p {
+  margin-bottom: 50px;
+  padding-right: 350px;
+}
+
+.Choose {
+  display: flex;
+  flex-direction: row;
+}
+.Choose_Display {
+  margin-right: 50px;
+}
+@media (min-width: 280px) and (max-width: 1000px) {
+  .Section2 {
+    text-align: center;
+  }
+  .Header p {
+    margin-bottom: 50px;
+    padding-right: 0;
+  }
+  .Choose {
+    display: flex;
+    flex-direction: column;
+  }
+  .Choose_Display {
+    margin-right: 0;
+  }
+}

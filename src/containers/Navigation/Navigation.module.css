@@ -1,0 +1,53 @@
+.Navigation_Border {
+  background-color: white;
+  border: 1px solid white;
+  width: 100%;
+  position: relative;
+  z-index: 1000;
+}
+.Navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+.Nav_List ul,
+li {
+  color: hsl(233, 8%, 62%);
+  cursor: pointer;
+  display: inline;
+  font-size: 16px;
+  list-style-type: none;
+  padding: 0px;
+}
+.Nav_List li {
+  border: 1px none;
+  color: hsl(233, 8%, 62%);
+  margin: 25px;
+}
+
+.Button {
+  color: #ffffff;
+  background: linear-gradient(0.25turn, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  padding: 15px 50px;
+  border: none;
+  border-radius: 21px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0;
+}
+
+@media (min-width: 280px) and (max-width: 1000px) {
+  .Navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 25px;
+  }
+  .Nav_List {
+    display: none;
+  }
+  .Button {
+    display: none;
+  }
+}

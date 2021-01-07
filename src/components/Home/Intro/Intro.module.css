@@ -1,0 +1,85 @@
+.Intro_Display {
+  background-color: hsl(0, 0%, 98%);
+  background-image: url("../../../assets/bg-intro-desktop.svg");
+  background-position: 450px -275px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  padding: 100px 50px;
+  height: 250px;
+}
+.Col1 img {
+  width: 500px;
+  position: relative;
+  top: -70%;
+  left: 5%;
+  z-index: 999;
+}
+.Col2 p {
+  padding-right: 150px;
+}
+.Col2 button {
+  color: #ffffff;
+  background: linear-gradient(0.25turn, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  padding: 15px 50px;
+  border: none;
+  border-radius: 21px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0px auto 50px;
+}
+
+@media (min-width: 280px) and (max-width: 1000px) {
+  .Intro_Display {
+    background-image: url("../../../assets/bg-intro-mobile.svg");
+    background-position: 5px -100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    height: auto;
+  }
+  .Col1 img {
+    width: 100%;
+    position: relative;
+    top: -200px;
+    left: 0px;
+  }
+  .Col2 {
+    text-align: center;
+    margin-right: 0;
+  }
+  .Col2 p {
+    padding-right: 0;
+  }
+  .Col2 button {
+    margin-top: 25px;
+  }
+}
+.slide_bottom {
+  -webkit-animation: slide_bottom 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide_bottom 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide_bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+}
+@keyframes slide_bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+}
