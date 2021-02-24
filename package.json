@@ -1,5 +1,5 @@
 {
-  "homepage": "http://GCyang08.github.io/Easybank_Landing_Page",
+  "homepage": "http://GCyang08.github.io/Easybank-Landing-Page",
   "name": "easybank-landing-page-master",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,8 @@
     "@testing-library/user-event": "^12.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },

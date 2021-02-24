@@ -1,11 +1,14 @@
 import "./App.css";
 import Easybank from "./containers/Easybank";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Easybank />
-    </div>
+    <BrowserRouter>
+      <div>
+        <Easybank />
+      </div>
+    </BrowserRouter>
   );
 }
 
