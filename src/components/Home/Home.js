@@ -1,19 +1,17 @@
 import React from "react";
-import "./Home.module.css";
+import "./Home.css";
 import Intro from "./Intro/Intro";
-import Choose from "./Choose/Choose";
-import Articles from "./Articles/Articles";
-import Container from "@material-ui/core/Container";
+// import Choose from "./Choose/Choose";
+// import Articles from "./Articles/Articles";
+// import Container from "@material-ui/core/Container";
 
-const Home = (props) => {
+function Home() {
   return (
-    <Container>
-      <div>
-        <Intro />
-        <Choose />
-        <Articles />
-      </div>
-    </Container>
+    <div>
+      <Intro />
+      {/* <Choose />
+      <Articles /> */}
+    </div>
   );
-};
+}
 export default Home;
