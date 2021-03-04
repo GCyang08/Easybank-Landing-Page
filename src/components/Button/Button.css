@@ -1,0 +1,13 @@
+.Button {
+  color: #ffffff;
+  background: linear-gradient(0.25turn, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  padding: 10px 35px;
+  border: none;
+  border-radius: 21px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 0;
+}
+.Button:focus {
+  outline: none;
+}

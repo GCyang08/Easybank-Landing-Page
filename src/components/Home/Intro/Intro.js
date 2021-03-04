@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../Button/Button";
 import phones from "../../../assets/image-mockups.png";
 import "./Intro.css";
 
@@ -13,11 +14,9 @@ function Intro() {
             one-stop-shop for spending, saving, budgeting, investing, and much
             more
           </p>
-          <button>Request Invite</button>
+          <Button />
         </div>
-        {/* <div className="IntroBackground"> */}
-        <img src={phones} alt="image mockups" />
-        {/* </div> */}
+        <img className="SlideBottom" src={phones} alt="mockups" />
       </div>
     </div>
   );

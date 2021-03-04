@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
-import "./Navigation.css";
+
+import Button from "../Button/Button";
+
 import logo from "../../assets/logo.svg";
 
+import "./Navigation.css";
 import {
   makeStyles,
   Paper,
@@ -57,7 +60,7 @@ function Navigation() {
 
   useEffect(() => {
     const setResponsiveness = () => {
-      return window.innerWidth < 760
+      return window.innerWidth < 1026
         ? setState((prevState) => ({ ...prevState, mobileView: true }))
         : setState((prevState) => ({ ...prevState, mobileView: false }));
     };
@@ -95,7 +98,7 @@ function Navigation() {
               );
             })}
           </Tabs>
-          <button className="Button">Request Invite</button>
+          <Button />
         </div>
       </Paper>
     );
@@ -129,7 +132,7 @@ function Navigation() {
           anchor="top"
           open={drawerOpen}
           onClose={handleDrawerClose}
-          transitionDuration={700}
+          transitionDuration={1000}
         >
           {navLinks.links.map((nav, i) => {
             return (

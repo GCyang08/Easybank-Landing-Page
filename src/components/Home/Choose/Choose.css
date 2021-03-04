@@ -1,0 +1,21 @@
+.ChooseLayout {
+  background-color: hsl(220, 16%, 96%);
+  padding: 100px 75px;
+}
+.ChooseDescriptionLayout {
+  display: flex;
+  justify-content: flex-start;
+}
+.ChooseDescriptionLayout div {
+  margin: 50px 15px;
+}
+
+@media (min-width: 280px) and (max-width: 1026px) {
+  .ChooseLayout {
+    text-align: center;
+  }
+  .ChooseDescriptionLayout {
+    display: flex;
+    flex-direction: column;
+  }
+}
