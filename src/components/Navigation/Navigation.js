@@ -27,6 +27,7 @@ const useStyles = makeStyles({
     backgroundColor: "white",
   },
   paper: {
+    borderRadius: "10px",
     margin: "50px",
     padding: "25px",
   },
@@ -92,8 +93,10 @@ function Navigation() {
               return (
                 <Tab
                   key={i}
+                  text
                   classes={{ root: classes.tabRoot }}
                   label={nav.label}
+                  disabled
                 />
               );
             })}
