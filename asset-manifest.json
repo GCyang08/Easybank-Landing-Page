@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Easybank-Landing-Page/static/css/main.b4043a7a.chunk.css",
-    "main.js": "/Easybank-Landing-Page/static/js/main.0540155a.chunk.js",
-    "main.js.map": "/Easybank-Landing-Page/static/js/main.0540155a.chunk.js.map",
+    "main.js": "/Easybank-Landing-Page/static/js/main.0f5f460e.chunk.js",
+    "main.js.map": "/Easybank-Landing-Page/static/js/main.0f5f460e.chunk.js.map",
     "runtime-main.js": "/Easybank-Landing-Page/static/js/runtime-main.bc4110f1.js",
     "runtime-main.js.map": "/Easybank-Landing-Page/static/js/runtime-main.bc4110f1.js.map",
     "static/js/2.0e968adf.chunk.js": "/Easybank-Landing-Page/static/js/2.0e968adf.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.bc4110f1.js",
     "static/js/2.0e968adf.chunk.js",
     "static/css/main.b4043a7a.chunk.css",
-    "static/js/main.0540155a.chunk.js"
+    "static/js/main.0f5f460e.chunk.js"
   ]
 }
