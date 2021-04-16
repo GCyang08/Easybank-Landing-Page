@@ -1,4 +1,4 @@
-
+# Project - Easy Bank Landing Page
 
 ## Available Scripts
 
