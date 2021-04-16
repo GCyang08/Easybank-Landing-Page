@@ -1,5 +1,21 @@
 # Project - Easy Bank Landing Page
 
+## Tools Used For This Project - 
+    . JavaScript
+    . React
+    . Material UI
+    . HTML
+    . CSS
+    
+# How I Created This Project -
+This project is built from the ground up.
+
+# Overview - 
+This challenge project is from Front End Mentor and for this project users should be able to:
+    
+    . View the optimal layout for the site depending on their device's screen size
+    . See hover states for all interactive elements on the page.
+
 ## Available Scripts
 
 In the project directory, you can run:
