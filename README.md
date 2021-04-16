@@ -8,7 +8,7 @@
     . CSS
     
 # How I Created This Project -
-This project is built from the ground up. It was a simple applcation built with React, a JavaScript framework. I used CSS and flexbox to help design the grid layout of my app. For the Navigation component, I used Material-UI components to help with the visualization of a nav bar. So farthe Home button is only accessible and the others pages are disabled. 
+This project is built from the ground up. It was a straightforward app created with React, a JavaScript framework. I used CSS and flexbox to help design the grid layout of my app. To aid in the visualization of a nav bar, I used Material-UI components in the Navigation portion. So far, only the Home button is accessible, and all other pages have been disabled.
 
 # Overview - 
 This challenge project is from Front End Mentor and for this project users should be able to:
